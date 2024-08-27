@@ -2,6 +2,8 @@
 
 ## Overview
 Welcome to the **Robotic Arm Project**! This project involves the design and development of a pick and place robotic arm capable of holding a cube with a gripper and placing it in a cup. The project demonstrates the integration of mechanical design, kinematics, and control coding, all brought together through teamwork.
+![summary](https://github.com/user-attachments/assets/130fab43-c670-456a-86fa-c051948b6e63)
+
 
 ## Objective
 The primary goal of this project is to design a robotic arm that can accurately and efficiently hold and move a cube into a designated cup. This involves understanding the mechanics of the arm, calculating the required torque at different points, and programming the arm for precise movements.
@@ -26,8 +28,13 @@ The robotic arm is composed of two main links, connected by joints, and a grippe
 ### Torque Calculation:
 The structure analysis was conducted to determine the torque required at each point of action. The robotic arm weighs approximately 200 grams, with the weight imagined to be evenly distributed across the entire length of 46.5 cm. Each servo motor has a mass of 55 grams and experiences a downward force of 0.53 newtons due to gravity.
 
+![structural analysis](https://github.com/user-attachments/assets/dad4a97b-2782-4919-947c-32a0272d703c)
+
+
 ## Kinematics
 Kinematics of the robotic arm were analyzed using trigonometric principles to ensure that the arm movements would be both smooth and accurate.
+
+![inverse kinematics trig](https://github.com/user-attachments/assets/b169550a-78b2-40b9-a134-c6bc842f6cd8)
 
 ## Coding
 The control code was developed using Arduino, incorporating the following components:
@@ -38,11 +45,6 @@ The control code was developed using Arduino, incorporating the following compon
   - SG90 180°
 - **Ultrasonic Sensor (HC-SR04)**: For distance measurement and object detection.
 - **H-Bridge**: For motor control.
-
-## Tools and Technologies
-- **SolidWorks**: For mechanical design.
-- **Arduino**: For coding and control.
-- **Servo Motors**: For movement and control of the robotic arm.
 - ![components](https://github.com/user-attachments/assets/a3b4debb-404c-4d96-9be9-f89a88d682ac)
 
 
