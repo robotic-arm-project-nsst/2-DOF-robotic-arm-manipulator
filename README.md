@@ -43,6 +43,8 @@ The control code was developed using Arduino, incorporating the following compon
 - **SolidWorks**: For mechanical design.
 - **Arduino**: For coding and control.
 - **Servo Motors**: For movement and control of the robotic arm.
+- ![components](https://github.com/user-attachments/assets/a3b4debb-404c-4d96-9be9-f89a88d682ac)
+
 
 
 ## Demo
